@@ -1,0 +1,359 @@
+------------------------------------------------------
+Version 1.12.2 - 3.0.29
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.28
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.27
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.26
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.25
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.24
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.23
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.22
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.21
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.20
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.19
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.18
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.17
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.16
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.15
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.14
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.13
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.12
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.11
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.10
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.9
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- None
+------------------------------------------------------
+Version 1.12.2 - 3.0.8
+------------------------------------------------------
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- Fix backpack going into itself via hotkey
+- Fix config changes not updating
+------------------------------------------------------
+Version 1.12.2 - 3.0.7
+------------------------------------------------------
+Additions
+- Enabled the keybind to open backpacks directly. Specifically it checks (in the following order):
+    - The selected item
+    - The offhand
+    - The hotbar (left to right)
+    - The main inventory (left to right, up to down)
+
+Changes
+- None
+
+Bug Fixes
+- None
+
+------------------------------------------------------
+Version 1.12 - 3.0.6
+------------------------------------------------------
+
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- Fixed FPS performance drop (due to colored backpack code)
+
+------------------------------------------------------
+Version 1.12 - 3.0.5
+------------------------------------------------------
+
+Additions
+- None
+
+Changes
+- [Internal] Re-added build number to build script
+
+Bug Fixes
+- Fixed backpack being stuck when moved via number-keys into open backpack
+
+------------------------------------------------------
+Version 1.12 - 3.0.4
+------------------------------------------------------
+
+Additions
+- None
+
+Changes
+- None
+
+Bug Fixes
+- Fixed crash when changing keybindings.
+
+------------------------------------------------------
+Version 1.12 - 3.0.3
+------------------------------------------------------
+
+Additions
+- Added the ability to color backpacks
+    - Shapelessly craft with dye, craft with water bucket to remove color
+- Added the "Everlasting Upgrade"
+    - It makes backpacks never despawn
+- Added ability to remove upgrades
+    - Backpack + shears in an anvil
+- [Internal] Added the code base for the ability to equip backpacks
+    - Disabled though, as it hasn't been tested enough and rendering isn't working yet
+- {Internal] Added a new Blacklist to the API
+
+Changes
+- Specializations are now visually different (backpack clasp color)
+- Slightly changed preexisting bag colors as well
+
+Bug Fixes
+- Fixed dupe bug when opening a backpack and tossing it away simultaneously.
+- Fixed odd interactions with inventory sorting mods
+- Fixed null backpack appearing as an ingredient when crafting higher tier ones
+
+------------------------------------------------------
+Version 1.12 - 3.0.1
+------------------------------------------------------
+
+Additions
+- Added data carry-over to the backpack upgrading recipe. No more lost items and upgrades.
+- Added a global blacklist to allow pack makers to stop given items or NBT tags from being inserted into the backpack.
+- Added Inventory Tweaks support.
+- Added additional points upgrade. Super duper useful right now. I swear.
+
+Changes
+- None
+
+Bug Fixes
+- Fixed an issue where closing the backpack would cause a casting error.
+
+------------------------------------------------------
+Version 1.12 - 3.0.0
+------------------------------------------------------
+
+ALPHA build for 1.12, first one since the rewrite.
+
+Massive changes compared to the 1.10 version occurred that will be
+documented in the future in more depth (mostly just missing features).
+
+Additions
+- Fancy API + clean codebase
+- Tiered backpacks with functional inventories
+
+Changes
+- Removed equipping backpacks
+- Removed nearly every upgrade
+- Removed extra JEI integration
+- Removed mod integration
+
+Bug Fixes
+- None

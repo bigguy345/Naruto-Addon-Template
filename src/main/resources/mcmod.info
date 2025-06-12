@@ -1,0 +1,15 @@
+[
+{
+  "modid": "${mod_id}",
+  "name": "${mod_name}",
+  "description": "",
+  "version": "${mod_version}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [""],
+  "credits": "",
+  "logoFile": "assets/narutomod/textures/shinobi_craft-min.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

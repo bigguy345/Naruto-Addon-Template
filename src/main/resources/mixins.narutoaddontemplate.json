@@ -1,0 +1,12 @@
+{
+	"package": "goatee.narutoaddon.template.mixin",
+	"required": true,
+	"refmap": "mixins.narutoaddontemplate.refmap.json",
+	"target": "@env(DEFAULT)",
+	"minVersion": "0.8.5",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+	],
+	"server": [],
+	"client": []
+}

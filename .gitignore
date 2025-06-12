@@ -1,0 +1,48 @@
+# General use .gitignore for Minecraft modding.
+
+# Directories
+/.gradle/
+/build/
+/eclipse/
+/run/
+/old1.8src/
+/out/
+/asm/
+/bin/
+/.idea/
+/.metadata/
+/.settings/
+
+# File Extensions
+*.psd
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.class
+
+# Specific files
+Thumbs.db
+BotaniaVars.dat
+eula.txt
+saves/
+mods/
+logs/
+world/
+crash-reports/
+banned-ips.json
+banned-players.json
+libs/Thaumcraft-1.7.10-4.2.3.5.jar
+ops.json
+options.txt
+server.properties
+servers.dat
+usercache.json
+usernamecache.json
+whitelist.json
+world-20151111-122917.zip
+classes/
+art/Logov4.2.xcf
+libs/
+*.hprof
