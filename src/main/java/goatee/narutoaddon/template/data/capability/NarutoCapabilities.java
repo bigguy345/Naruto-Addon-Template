@@ -1,5 +1,6 @@
 package goatee.narutoaddon.template.data.capability;
 
+import goatee.narutoaddon.template.NarutoAddon;
 import goatee.narutoaddon.template.data.NarutoData;
 import goatee.narutoaddon.template.network.packets.NarutoSyncData;
 import net.minecraft.entity.Entity;
@@ -18,7 +19,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.relauncher.Side;
-import net.narutomod.NarutomodMod;
 
 @Mod.EventBusSubscriber
 public class NarutoCapabilities {
@@ -42,7 +42,7 @@ public class NarutoCapabilities {
     @SubscribeEvent
     public static void onAttachCapabilities(AttachCapabilitiesEvent<Entity> event) {
         if (event.getObject() instanceof EntityPlayer)
-            event.addCapability(new ResourceLocation(NarutomodMod.MODID, "naruto_data"), new NarutoData.CapProvider((EntityPlayer) event.getObject()));
+            event.addCapability(new ResourceLocation(NarutoAddon.MODID, "naruto_data"), new NarutoData.CapProvider((EntityPlayer) event.getObject()));
     }
 
     @SubscribeEvent
