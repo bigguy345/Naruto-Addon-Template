@@ -54,7 +54,6 @@ public final class NarutoSyncData extends AbstractPacket {
         PacketHandler.Instance.sendToServer(new NarutoSyncData(data));
     }
 
-    @SideOnly(Side.SERVER)
     public static void syncTrackingClients(NarutoData data) {
         PacketHandler.Instance.sendToPlayer(data.player, new NarutoSyncData(data));
         PacketHandler.Instance.sendToTrackingPlayers(data.player, new NarutoSyncData(data));
