@@ -47,9 +47,8 @@ public class AdvancementUtil {
 
 
         AdvancementProgress playerProgress = player.getAdvancements().getProgress(advancement);
-        if (!playerProgress.isDone())
-            for (String criterion : playerProgress.getCompletedCriteria())
-                player.getAdvancements().revokeCriterion(advancement, criterion);
+        for (String criterion : playerProgress.getCompletedCriteria())
+            player.getAdvancements().revokeCriterion(advancement, criterion);
 
 
         return playerProgress.isDone();
