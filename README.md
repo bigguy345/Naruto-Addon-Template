@@ -6,6 +6,9 @@ It comes with built-in networking, client-synced data handlers, mixins, access t
 and other advanced **RetroFuturaGradle** features.
 
 > [!NOTE]
+> RUNS ON JAVA 17.
+>
+> 
 > The **Naruto Mod** version publicy released at the time of this repository's creation is **0.3.1-beta**.
 > 
 > Change the version at `gradle/scripts/dependencies.gradle`
